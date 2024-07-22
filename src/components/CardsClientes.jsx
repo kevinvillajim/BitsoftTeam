@@ -1,57 +1,71 @@
-export default function CardsClientes() {
-	return (
-		<>
-			<div className="flex justify-center items-center h-screen bg-background">
-				<div className="w-full max-w-6xl">
-					<div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-						<div className="col-span-2 md:col-span-1 flex flex-col items-center p-6 border border-primary rounded-lg shadow-lg transition-transform transform hover:scale-105">
-							<img
-								src="https://openui.fly.dev/openui/300x150.svg?text=Keyboard+and+Mouse"
-								alt="Keyboard and Mouse"
-								className="mb-4"
-							/>
-							<span className="text-center text-primary-foreground font-semibold text-lg">
-								MOUSE Y TECLADOS
-							</span>
-						</div>
-						<div className="col-span-2 md:col-span-1 flex flex-col items-center p-6 border border-primary rounded-lg shadow-lg transition-transform transform hover:scale-105">
-							<img
-								src="https://openui.fly.dev/openui/300x150.svg?text=Headphones"
-								alt="Headphones"
-								className="mb-4"
-							/>
-							<span className="text-center text-primary-foreground font-semibold text-lg">
-								AUDÍFONOS CON MICRÓFONO Y AURICULARES
-							</span>
-						</div>
-						<div className="col-span-1 flex flex-col items-center p-6 border border-primary rounded-lg shadow-lg transition-transform transform hover:scale-105">
-							<img
-								src="https://openui.fly.dev/openui/150x150.svg?text=Mobile+Devices"
-								alt="Mobile Devices"
-								className="mb-4"
-							/>
-							<span className="text-center text-primary-foreground font-semibold text-lg">
-								DISPOSITIVOS MÓVILES
-							</span>
-						</div>
-						<div className="col-span-1 flex flex-col items-center p-6 border border-primary rounded-lg shadow-lg transition-transform transform hover:scale-105">
-							<img
-								src="https://openui.fly.dev/openui/150x150.svg?text=Streaming"
-								alt="Streaming"
-								className="mb-4"
-							/>
-							<span className="text-center text-primary-foreground font-semibold text-lg">
-								STREAMING
-							</span>
-						</div>
-					</div>
-					<div className="flex justify-center mt-6">
-						<button className="w-3 h-3 bg-primary rounded-full mx-1 transition-colors hover:bg-primary/80"></button>
-						<button className="w-3 h-3 bg-muted rounded-full mx-1 transition-colors hover:bg-muted/80"></button>
-						<button className="w-3 h-3 bg-muted rounded-full mx-1 transition-colors hover:bg-muted/80"></button>
-					</div>
-				</div>
-			</div>
-		</>
-	);
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Title from "./Title";
+
+export default function CardsClientes({ cardsClientes }) {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: false,
+        },
+      },
+    ],
+  };
+
+  return (
+    <div className="flex justify-center items-center bg-background pb-[10rem] pt-[5rem]">
+      <div className="max-w-6xl w-full">
+        <Slider {...settings}>
+          {cardsClientes.map((cliente, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center p-6 mx-2 border border-primary border-r-0 border-l-0 rounded-lg shadow-lg transition-transform transform hover:scale-105"
+            >
+              <div className="h-[180px] mb-2 flex items-center justify-center">
+                <img
+                  src={`${index + 1}.png`}
+                  alt={cliente.title}
+                  className="max-h-full object-contain"
+                />
+              </div>
+              <div className="w-full flex justify-center">
+                <span className="text-center text-primary-foreground font-semibold text-xs">
+                  {cliente.title}
+                </span>
+              </div>
+            </div>
+          ))}
+        </Slider>
+      </div>
+    </div>
+  );
 }

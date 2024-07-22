@@ -1,31 +1,50 @@
 import "./App.css";
-import Header from "./components/Header";
-import HomeBannerCarrousel from "./components/HomeBannerCarrousel";
-import Cards from "./components/Cards";
-import CardsClientes from "./components/CardsClientes";
-import Carrousel2 from "./components/Carrousel2";
-import Icons from "./components/Icons";
-import CarrouselDestacados from "./components/CarrouselDestacados";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./views/Home";
+import Nosotros from "./views/Nosotros";
+import Productos from "./views/Productos";
+import PantallasInteractivas from "./views/PantallasInteractivas";
+import Computo from "./views/Computo";
+import Seguridad from "./views/Seguridad";
+import Infraestructura from "./views/Infraestructura";
 
 function App() {
-	return (
-		<>
-			<Header />
-			<HomeBannerCarrousel />
-			<Cards />
-			<CardsClientes />
-			<Carrousel2 />
-			<Icons
-				icons={[
-					{img: "/vite.svg", alt: "vite", title: "vite"},
-					{img: "/vite.svg", alt: "vite", title: "vite"},
-				]}
-			/>
-			<CarrouselDestacados />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <Router>
+        <Routes>
+          <Route
+            path="/"
+            element={<Home />}
+          />
+          <Route
+            path="/nosotros"
+            element={<Nosotros />}
+          />
+          <Route
+            path="/productos"
+            element={<Productos />}
+          />
+          <Route
+            path="/productos/pantallas-interactivas"
+            element={<PantallasInteractivas />}
+          />
+          <Route
+            path="/productos/computo"
+            element={<Computo />}
+          />
+          <Route
+            path="/productos/seguridad"
+            element={<Seguridad />}
+          />
+          <Route
+            path="/productos/infraestructura"
+            element={<Infraestructura />}
+          />
+        </Routes>
+      </Router>
+    </>
+  );
 }
 
 export default App;
