@@ -1,13 +1,15 @@
-export default function Button({ link, title, text, dark }) {
+export default function Button({ link, title, text, dark, onClick }) {
   return (
     <>
-      <a
-        href={link}
-        title={title}
-        className={dark === true ? "cta-button-dark" : "cta-button"}
-      >
-        {text}
-      </a>
+      <div onClick={onClick}>
+        <a
+          href={link}
+          title={title}
+          className={dark === true ? "cta-button-dark" : "cta-button"}
+        >
+          {text}
+        </a>
+      </div>
     </>
   );
 }

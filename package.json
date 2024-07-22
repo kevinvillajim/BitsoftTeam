@@ -3,14 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kevinvillajim.github.io/BitsoftTeam/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "main -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",

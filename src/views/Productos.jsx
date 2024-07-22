@@ -16,6 +16,10 @@ export default function Productos() {
         content="Manejamos los mejores precios del pais por que somos representantes directos de One Screen"
         height="38rem"
         position="center"
+        textColor="text-white"
+        textColor1="text-white"
+        fixed={true}
+        otherText="flex flex-col items-center"
       />
       <div className="my-[2rem]">
         <Title title="Productos" />
@@ -67,6 +71,7 @@ export default function Productos() {
         <Title title="Productos Destacados" />
       </div>
       <CarrouselDestacados
+        verTodos={true}
         destacados={[
           {
             img: "/tl7.png",

@@ -153,6 +153,7 @@ function Home() {
         <Title title="Productos Destacados" />
       </div>
       <CarrouselDestacados
+        verTodos={true}
         destacados={[
           {
             img: "/tl7.png",
