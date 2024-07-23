@@ -154,25 +154,25 @@ function Home() {
 						link: "#",
 					},
 					{
-						img: "/tl7.png",
-						title: 'Pantalla OneScreen TL7 65"',
+						img: "/soportesOs.png",
+						title: "Soportes Moviles de Pantallas",
 						description:
-							"Tus aplicaciones y plataformas favoritas en una potente pantalla interactiva que te permite ejecutar múltiples aplicaciones, transmitir, presentar y compartir todo a la vez, sin ningún retraso.",
-						link: "#",
+							"Utiliza tu pantalla OneScreen donde quieras con los robustos y resistentes sopores móviles de la propia marca. disponible para todos los tamaños de pantallas. Dos modelos a escojer.",
+						link: "https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20deseo%20cotizar%20los%20soportes%20moviles%20OneScreen%20que%20vi%20en%20la%20web.",
 					},
 					{
-						img: "/tl7.png",
-						title: 'Pantalla OneScreen TL7 65"',
+						img: "/camarasOs.png",
+						title: "Cámaras con Inteligencia Artificial",
 						description:
-							"Tus aplicaciones y plataformas favoritas en una potente pantalla interactiva que te permite ejecutar múltiples aplicaciones, transmitir, presentar y compartir todo a la vez, sin ningún retraso.",
-						link: "#",
+							"Zoom y enfoque automático de acuerdo al numero de personas en sala. Utiliza giro, inclinación y zoom para seguir y enfocar el presentador mientras se mueven en un cuarto.",
+						link: "https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20deseo%20cotizar%20las%20camaras%20OneScreen%20con%20Inteligencia%20artificial.",
 					},
 					{
-						img: "/tl7.png",
-						title: 'Pantalla OneScreen TL7 65"',
+						img: "/torre.png",
+						title: "Servidores Tipo Torre",
 						description:
-							"Tus aplicaciones y plataformas favoritas en una potente pantalla interactiva que te permite ejecutar múltiples aplicaciones, transmitir, presentar y compartir todo a la vez, sin ningún retraso.",
-						link: "#",
+							"Servidores de torre que proporciona una base de comunicación entre todos los dispositivos de tu entorno de datos. Recomendado para soluciones empresariales.",
+						link: "https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20vengo%20desde%20la%20página%20web%20y%20deseo%20cotizar%20Servidores%20Tipo%20Torre.",
 					},
 				]}
 			/>

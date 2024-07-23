@@ -8,7 +8,7 @@ export default function Footer() {
 						<img src="/logo.png" alt="Logo" className="mb-4" />
 					</div>
 					<div className="justify-evenly flex flex-col items-center mt-8">
-						<div className="flex space-x-4">
+						<div className="flex gap-4 socialContainer">
 							<Social
 								link="https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20me%20contacto%20desde%20la%20pagina%20web%20de%20Bistoft%20Team."
 								img="https://raw.githubusercontent.com/kevinvillajim/Portfolio/main/src/assets/icons/whatsapp.png"
@@ -32,7 +32,7 @@ export default function Footer() {
 						</div>
 					</div>
 				</div>
-				<div className="flex justify-between">
+				<div className="flex justify-between menuContainer">
 					<div className="w-full lg:w-1/5 mb-6 lg:mb-0">
 						<a href="/">
 							<h3 className="text-lg font-semibold mb-2 hover:underline">

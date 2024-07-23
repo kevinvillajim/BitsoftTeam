@@ -140,6 +140,10 @@
 		display: block;
 	}
 
+	.menu__bar {
+		position: inherit;
+	}
+
 	.navigation--mobile {
 		top: var(--navbar-height);
 		position: absolute;
@@ -185,6 +189,61 @@
 			width: 0;
 			height: 0;
 		}
+	}
+	.bgHomeCarr {
+		width: auto;
+		left: 0;
+	}
+	.carrouselDestacadosContainer,
+	.iconsContainer {
+		display: flex;
+		flex-direction: column;
+	}
+	.iconsContainer {
+		gap: 1.5rem;
+	}
+	.socialContainer {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 2rem;
+		justify-content: center;
+	}
+	.menuContainer {
+		text-align: center;
+		flex-wrap: wrap;
+	}
+	#whatsapp-link {
+		right: 13%;
+		bottom: 30px;
+	}
+	#whatsapp-link > :first-child {
+		width: 40px;
+		height: 40px;
+	}
+	#whatsapp-link > :first-child > :first-child {
+		width: 30px;
+		height: 30px;
+	}
+	.HomeBannerContainer {
+		padding: 0;
+	}
+	.titleHomeBanner {
+		font-size: 50px;
+	}
+	.btnHomeBanner {
+		display: flex;
+		justify-content: center;
+	}
+	.textHomeBannerContainer {
+		padding: 0 1rem;
+	}
+	.titleContaniner > h1 {
+		font-size: 45px;
+		text-align: center;
+	}
+	.bannerSContainer {
+		padding: 0 2rem;
+		text-align: center;
 	}
 }
 
