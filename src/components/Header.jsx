@@ -70,6 +70,11 @@ export default function Header() {
 											</a>
 										</li>
 										<li>
+											<a href="/productos/pantallas-publicitarias">
+												Pantallas Publicitarias
+											</a>
+										</li>
+										<li>
 											<a href="/productos/computo">Computo y Accesorios</a>
 										</li>
 										<li>

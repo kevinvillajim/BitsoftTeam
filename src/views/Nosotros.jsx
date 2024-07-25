@@ -24,9 +24,28 @@ export default function Nosotros() {
 					title="Conoce el Equipo"
 					subtitle="Somos personas comprometidas con la calidad y el servicio de excelencia"
 					text="qwoeqwpoeiwqpoeipwqoiepoqwiepoqiwepoiqwpoeqweqwewqeqweqweqweqw qweqwe qwe qweq we qwe qw"
-					img1="https://raw.githubusercontent.com/kevinvillajim/edieSite/main/public/person1.png"
-					img2="https://raw.githubusercontent.com/kevinvillajim/edieSite/main/public/person2.png"
-					img3="https://raw.githubusercontent.com/kevinvillajim/edieSite/main/public/person3.png"
+					imgs={[
+						{
+							name: "José Vernaza",
+							cargo: "Gerente General",
+							img: "/person1.jpg",
+						},
+						{
+							name: "Samuel Vernaza",
+							cargo: "Asesor Comercial",
+							img: "/person2.jpg",
+						},
+						{
+							name: "Chica",
+							cargo: "Asesor Comercial",
+							img: "/person3.jpg",
+						},
+						{
+							name: "Mosiah Torres",
+							cargo: "Asesor Comercial",
+							img: "/person4.jpg",
+						},
+					]}
 				/>
 			</div>
 			<div id="empresa">

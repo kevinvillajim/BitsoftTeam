@@ -71,7 +71,7 @@ export default function Productos() {
 				verTodos={true}
 				destacados={[
 					{
-						img: "/tl7.png",
+						img: "/tl765.png",
 						title: 'Pantalla OneScreen TL7 65"',
 						description:
 							"Tus aplicaciones y plataformas favoritas en una potente pantalla interactiva que te permite ejecutar múltiples aplicaciones, transmitir, presentar y compartir todo a la vez, sin ningún retraso.",
@@ -85,18 +85,18 @@ export default function Productos() {
 						link: "https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20deseo%20cotizar%20los%20soportes%20moviles%20OneScreen%20que%20vi%20en%20la%20web.",
 					},
 					{
-						img: "/camarasOs.png",
-						title: "Cámaras con Inteligencia Artificial",
+						img: "/videowalls.png",
+						title: "Video Wall",
 						description:
-							"Zoom y enfoque automático de acuerdo al numero de personas en sala. Utiliza giro, inclinación y zoom para seguir y enfocar el presentador mientras se mueven en un cuarto.",
-						link: "https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20deseo%20cotizar%20las%20camaras%20OneScreen%20con%20Inteligencia%20artificial.",
+							"Pantalla modular que ofrece una visualización expansiva y de alta resolución, ideal para publicidad, centrales de seguridad y presentaciones impactantes en espacios amplios.",
+						link: "https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20deseo%20cotizar%20los%20video%20walls%20que%20vi%20en%20la%20pagina%20web.",
 					},
 					{
-						img: "/torre.png",
-						title: "Servidores Tipo Torre",
+						img: "/totems.png",
+						title: "Totems",
 						description:
-							"Servidores de torre que proporciona una base de comunicación entre todos los dispositivos de tu entorno de datos. Recomendado para soluciones empresariales.",
-						link: "https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20vengo%20desde%20la%20página%20web%20y%20deseo%20cotizar%20Servidores%20Tipo%20Torre.",
+							"Pantallas verticales interactivas diseñadas para captar la atención con contenido dinámico y versátil, perfectas para entornos comerciales y de información.",
+						link: "https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20deseo%20cotizar%20el%20totem%20que%20vi%20en%20la%20pagina%20web.",
 					},
 				]}
 			/>

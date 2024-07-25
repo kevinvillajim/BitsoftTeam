@@ -107,6 +107,14 @@ export default function Footer() {
 								</a>
 							</li>
 							<li>
+								<a
+									href="/productos/pantallas-publicitarias"
+									className="hover:underline"
+								>
+									Pantallas Publicitarias
+								</a>
+							</li>
+							<li>
 								<a href="/productos/computo" className="hover:underline">
 									Computo y Accesorios
 								</a>
