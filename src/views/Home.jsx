@@ -126,7 +126,7 @@ function Home() {
 					{
 						img: "/computo.jpg",
 						alt: "computo",
-						title: "COMPUTO Y ACCESORIOS",
+						title: "CÓMPUTO Y ACCESORIOS",
 						description:
 							"Explora el poder de la tecnología con nuestros equipos de cómputo y accesorios. Optimiza tu productividad y potencia tu creatividad con dispositivos diseñados para ofrecer rendimiento superior.",
 						link: "/productos/computo",
@@ -167,7 +167,7 @@ function Home() {
 					},
 					{
 						img: "/soportesOs.png",
-						title: "Soportes Moviles de Pantallas",
+						title: "Soportes Móviles de Pantallas",
 						description:
 							"Utiliza tu pantalla OneScreen donde quieras con los robustos y resistentes sopores móviles de la propia marca. disponible para todos los tamaños de pantallas. Dos modelos a escojer.",
 						link: "https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20deseo%20cotizar%20los%20soportes%20moviles%20OneScreen%20que%20vi%20en%20la%20web.",
@@ -181,7 +181,7 @@ function Home() {
 					},
 					{
 						img: "/totems.png",
-						title: "Totems",
+						title: "Tótems",
 						description:
 							"Pantallas verticales interactivas diseñadas para captar la atención con contenido dinámico y versátil, perfectas para entornos comerciales y de información.",
 						link: "https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20deseo%20cotizar%20el%20totem%20que%20vi%20en%20la%20pagina%20web.",

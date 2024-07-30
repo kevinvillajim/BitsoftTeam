@@ -50,7 +50,7 @@ export default function PantallasInteractivas() {
 				]}
 			/>
 			<div className="py-[2rem]">
-				<Title title="HARDWARE" />
+				<Title title="HARDWARE TL7. ADAPTADO A TUS NECESIDADES" />
 			</div>
 			<Tabs
 				tabs={[
@@ -165,6 +165,154 @@ export default function PantallasInteractivas() {
 					},
 				]}
 			/>
+			<div className="py-[2rem]">
+				<Title title="PANTALLA INTERACTIVA ONESCREEN T7" />
+			</div>
+			<Icons
+				icons={[
+					{
+						img: "/speed.png",
+						description: "Speed",
+						title: "La pantalla mas rápida del mercado.",
+					},
+					{
+						img: "/android.png",
+						description: "Android",
+						title: "Android 13, Certificado EDLA",
+					},
+					{
+						img: "/nfc.png",
+						description: "Nfc",
+						title: "NFC para inciar sesión con tarjetas o tags.",
+					},
+					{
+						img: "/ia.png",
+						description: "IA",
+						title: "Optimizado por IA",
+					},
+				]}
+			/>
+			<div className="py-[2rem]">
+				<Title title="HARDWARE T7. POTENCIA MÁXIMA, PARA DURAR" />
+			</div>
+			<Tabs
+				tabs={[
+					{
+						id: "tab1",
+						title: "Protección y Ciclo de Vida",
+						icon: "shield",
+						content: (
+							<>
+								<div className="my-[2rem]">
+									<p className="text-[] font-bold mr-[1rem]">Vidrio: </p>
+									<span>
+										Vidrio templado anti-reflejo y anti huellas con dureza de 9
+										Mohs, ancho de 4mm.
+									</span>
+								</div>
+								<div className="my-[2rem]">
+									<p className="text-[] font-bold mr-[1rem]">
+										Ciclo de vida Util:{" "}
+									</p>
+									<span>
+										100.000 horas de uso continuo {"(11 años y medio)"}
+									</span>
+								</div>
+							</>
+						),
+					},
+					{
+						id: "tab2",
+						title: "Audio",
+						icon: "graphic_eq",
+						content: (
+							<>
+								<div className="my-[2rem]">
+									<p className="text-[] font-bold mr-[1rem]">Altavoces: </p>
+									<span>
+										x2 Salidas estereo de 20W + 1 Subwoofer 25W sonido
+										envolvente
+									</span>
+									<p className="text-[] font-bold mr-[1rem]">Micrófonos: </p>
+									<span>Microfono de 8 matricies con reducción de ruido</span>
+								</div>
+							</>
+						),
+					},
+					{
+						id: "tab3",
+						title: "Caracteristicas del panel",
+						icon: "tv",
+						content: (
+							<>
+								<div className="my-[2rem]">
+									<p className="text-[] font-bold mr-[1rem]">Tecnologia: </p>
+									<span>OLED</span>
+								</div>
+								<div className="my-[2rem]">
+									<p className="text-[] font-bold mr-[1rem]">Resolución: </p>
+									<span>4K UHD (3840 x 2160)</span>
+								</div>
+								<div className="my-[2rem]">
+									<p className="text-[] font-bold mr-[1rem]">
+										Angulo de visión:{" "}
+									</p>
+									<span>178° Izquierdo, derecho, inferior y superior</span>
+								</div>
+							</>
+						),
+					},
+					{
+						id: "tab4",
+						title: "Conectividad",
+						icon: "sensors",
+						content: (
+							<>
+								<div className="my-[2rem]">
+									<p className="text-[] font-bold mr-[1rem]">Sensores: </p>
+									<span>1x Sensor de luz para brillo.</span>
+								</div>
+								<div className="my-[2rem]">
+									<p className="text-[] font-bold mr-[1rem]">Conectividad: </p>
+									<span>Wifi 6/ Bluetooth 5.0 / Wifi Hotspot 6/ NFC.</span>
+								</div>
+								<div className="my-[2rem]">
+									<p className="text-[] font-bold mr-[1rem]">Puertos: </p>
+									<span>
+										HDMI - VGA - USB Touch tipo B - USB Tipo A,C - Entrada y
+										salida de audio-Ranura OPS
+									</span>
+								</div>
+							</>
+						),
+					},
+					{
+						id: "tab5",
+						title: "Procesamiento",
+						icon: "memory",
+						content: (
+							<>
+								<div className="my-[2rem]">
+									<p className="text-[] font-bold mr-[1rem]">
+										Sistema Operativo:{" "}
+									</p>
+									<span>Android 13 + Certificado EDLA + Asistente de voz</span>
+								</div>
+								<div className="my-[2rem]">
+									<p className="text-[] font-bold mr-[1rem]">Memoria RAM: </p>
+									<span>8 GB RAM</span>
+								</div>
+								<div className="my-[2rem]">
+									<p className="text-[] font-bold mr-[1rem]">
+										Almacenamiento:{" "}
+									</p>
+									<span>128 GB</span>
+								</div>
+							</>
+						),
+					},
+				]}
+			/>
 			<div className="bg-gradient-to-tl from-white via-gray-400 to-white]">
 				<BannerS
 					img="/tl7One.png"
@@ -212,13 +360,6 @@ export default function PantallasInteractivas() {
 			<CarrouselDestacados
 				destacados={[
 					{
-						img: "/tl755.png",
-						title: 'Pantalla OneScreen TL7 55"',
-						description:
-							"Tus aplicaciones y plataformas favoritas en una potente pantalla interactiva que te permite ejecutar múltiples aplicaciones, transmitir, presentar y compartir todo a la vez, sin ningún retraso.",
-						link: "https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20deseo%20cotizar%20las%20pantallas%20interactivas%20de%2055%22%20que%20vi%20en%20la%20pagina%20web.",
-					},
-					{
 						img: "/tl765.png",
 						title: 'Pantalla OneScreen TL7 65"',
 						description:
@@ -248,6 +389,27 @@ export default function PantallasInteractivas() {
 					},
 					{
 						img: "/tl7105.png",
+						title: 'Pantalla OneScreen TL7 105"',
+						description:
+							"Tus aplicaciones y plataformas favoritas en una potente pantalla interactiva que te permite ejecutar múltiples aplicaciones, transmitir, presentar y compartir todo a la vez, sin ningún retraso.",
+						link: "https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20deseo%20cotizar%20las%20pantallas%20interactivas%20de%20105%22%20que%20vi%20en%20la%20pagina%20web.",
+					},
+					{
+						img: "/t765.png",
+						title: 'Pantalla OneScreen T7 65"',
+						description:
+							"Poder, potencia y vanguardia, la linea premium de Pantallas Interactivas OneScreen",
+						link: "https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20deseo%20cotizar%20las%20pantallas%20interactivas%20de%2086%22%20que%20vi%20en%20la%20pagina%20web.",
+					},
+					{
+						img: "/t775.png",
+						title: 'Pantalla OneScreen TL7 98"',
+						description:
+							"Tus aplicaciones y plataformas favoritas en una potente pantalla interactiva que te permite ejecutar múltiples aplicaciones, transmitir, presentar y compartir todo a la vez, sin ningún retraso.",
+						link: "https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20deseo%20cotizar%20las%20pantallas%20interactivas%20de%2095%22%20que%20vi%20en%20la%20pagina%20web.",
+					},
+					{
+						img: "/t786.png",
 						title: 'Pantalla OneScreen TL7 105"',
 						description:
 							"Tus aplicaciones y plataformas favoritas en una potente pantalla interactiva que te permite ejecutar múltiples aplicaciones, transmitir, presentar y compartir todo a la vez, sin ningún retraso.",
@@ -285,7 +447,6 @@ export default function PantallasInteractivas() {
 			/>
 			<div id="contacto">
 				<Footer />
-				<Formulario title="Hola" message="Holaaa" />
 			</div>
 			<BtnWhatsapp />
 		</>
