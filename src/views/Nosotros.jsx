@@ -69,7 +69,7 @@ export default function Nosotros() {
 						},
 						{
 							img: "/empresa4.jpg",
-							subTitle: "Establecida como empresa del año...",
+							subTitle: "Crecimiento del 300% en un año",
 							title: "2023",
 
 							type: "down",
@@ -77,7 +77,7 @@ export default function Nosotros() {
 						{
 							img: "/empresa3.jpg",
 							subTitle:
-								"Nombrado Único distribuidor autorizado de One Screen en Ecuador",
+								"Nombrado Único distribuidor autorizado de OneScreen en Ecuador",
 							title: "2021",
 							type: "up",
 						},

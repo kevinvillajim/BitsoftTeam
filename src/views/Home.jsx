@@ -95,7 +95,7 @@ function Home() {
 					{
 						img: "/os.png",
 						description: "Representantes",
-						title: "Mayoristas One Screen",
+						title: "Mayoristas OneScreen",
 					},
 					{
 						img: "/exp.png",
@@ -119,7 +119,7 @@ function Home() {
 						alt: "PantallasInteractivas",
 						title: "PANTALLAS INTERACTIVAS",
 						description:
-							"El futuro al alcance de tus dedos!,  Con un simple gesto, desbloqueas mundos digitales, permitete conocer el futuro en la educación, salas de reuniones y presentaciones con las pantallas mas sólidas del mercado.",
+							"El futuro al alcance de tus dedos con un simple gesto, desbloquea mundos digitales. Permitete conocer el futuro en la educación, salas de reuniones y presentaciones con las pantallas mas sólidas del mercado.",
 						link: "/productos/pantallas-interactivas",
 						btnText: "Ver Mas...",
 					},

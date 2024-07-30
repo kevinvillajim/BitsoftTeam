@@ -8,6 +8,7 @@ import Tabs from "../components/Tabs";
 import CarrouselDestacados from "../components/CarrouselDestacados";
 import Footer from "../components/Footer";
 import BtnWhatsapp from "../components/BtnWhatsapp";
+import Formulario from "../components/Formulario";
 
 export default function PantallasInteractivas() {
 	const [showModal, setShowModal] = useState(false);
@@ -22,7 +23,7 @@ export default function PantallasInteractivas() {
 				fixed={true}
 			/>
 			<div className="py-[2rem]">
-				<Title title="PANTALLA INTERACTIVA ONE SCREEN TL7" />
+				<Title title="PANTALLA INTERACTIVA ONESCREEN TL7" />
 			</div>
 			<Icons
 				icons={[
@@ -255,7 +256,7 @@ export default function PantallasInteractivas() {
 				]}
 			/>
 			<div className="py-[2rem]">
-				<Title title="ACCESORIOS ONE SCREEN" />
+				<Title title="ACCESORIOS ONESCREEN" />
 			</div>
 			<CarrouselDestacados
 				destacados={[
@@ -284,6 +285,7 @@ export default function PantallasInteractivas() {
 			/>
 			<div id="contacto">
 				<Footer />
+				<Formulario title="Hola" message="Holaaa" />
 			</div>
 			<BtnWhatsapp />
 		</>

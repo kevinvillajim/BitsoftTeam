@@ -1,5 +1,20 @@
+import {useState} from "react";
 import Button from "./Button";
+import Modal from "./Modal";
+import Formulario from "./Formulario";
+
 export default function CarrouselDestacados({destacados, verTodos}) {
+	const [showModal, setShowModal] = useState(false);
+	const [modalContent, setModalContent] = useState({title: "", message: ""});
+
+	const handleButtonClick = (title) => {
+		setModalContent({
+			title,
+			message: `Deseo cotizar: ${title} por favor comunicarse conmigo`,
+		});
+		setShowModal(true);
+	};
+
 	return (
 		<>
 			<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 overflow-x-auto px-8 carrouselDestacadosContainer">
@@ -7,7 +22,6 @@ export default function CarrouselDestacados({destacados, verTodos}) {
 					<div className="p-4 rounded-lg border border-1 shadow-lg" key={index}>
 						<div className="w-full h-[250px] relative">
 							<div className="absolute inset-0 z-0 flex justify-center items-center rounded-lg ">
-								{/* bg-gradient-to-br from-gray-500 via-white to-gray-500 */}
 								<img
 									src="/bgCard.jpg"
 									alt="Background"
@@ -25,10 +39,13 @@ export default function CarrouselDestacados({destacados, verTodos}) {
 							{destacado.description}
 						</p>
 						<Button
-							link={destacado.link}
+							link="#"
 							title="cotizar"
 							text="Cotizar"
 							dark={true}
+							onClick={() =>
+								handleButtonClick(destacado.title, destacado.description)
+							}
 						/>
 					</div>
 				))}
@@ -41,6 +58,17 @@ export default function CarrouselDestacados({destacados, verTodos}) {
 				</div>
 			) : (
 				""
+			)}
+			{showModal && (
+				<Modal
+					setShowModal={setShowModal}
+					content={
+						<Formulario
+							title={modalContent.title}
+							message={modalContent.message}
+						/>
+					}
+				/>
 			)}
 		</>
 	);
