@@ -23,7 +23,7 @@ export default function Nosotros() {
 				<Team
 					title="Conoce el Equipo"
 					subtitle="Somos personas comprometidas con la calidad y el servicio de excelencia"
-					text="qwoeqwpoeiwqpoeipwqoiepoqwiepoqiwepoiqwpoeqweqwewqeqweqweqweqw qweqwe qwe qweq we qwe qw"
+					text="Con más de 5 años de experiencia damos todo de nosotros para brindarte un servicio único, personalizado y centrado en tus necesidades, contáctate con nosotros para poder asesorate."
 					imgs={[
 						{
 							name: "José Vernaza",
@@ -36,8 +36,8 @@ export default function Nosotros() {
 							img: "/person2.jpg",
 						},
 						{
-							name: "Chica",
-							cargo: "Asesor Comercial",
+							name: "Marlise Saenz",
+							cargo: "Asesora Comercial",
 							img: "/person3.jpg",
 						},
 						{

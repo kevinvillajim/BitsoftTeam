@@ -9,7 +9,7 @@ export default function Cards({cards}) {
 						<div className="text-center" key={index}>
 							<img src={card.img} alt={card.alt} className="w-full h-auto" />
 							<h3 className="mt-4 text-xl font-semibold">{card.title}</h3>
-							<p className="mt-2 text-muted-foreground h-[7.5rem]">
+							<p className="mt-2 text-muted-foreground card-description">
 								{card.description}
 							</p>
 							<div className="mt-4">

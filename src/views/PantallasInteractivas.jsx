@@ -170,10 +170,10 @@ export default function PantallasInteractivas() {
 					position="center"
 					height="32rem"
 					title="El presente y futuro de la Educación"
-					textColor="text-[#d61631] text-[50px]"
-					textColor1="text-[20px]"
+					textColor="text-color"
+					textColor1="text-color1"
 					otherContainer="flex"
-					otherText="w-[45%] px-[3rem]"
+					otherText="other-text"
 					content="Forma parte del 20% de instituciones que se diferencia por la tecnología e inovación, sé el presente de tus alumnos y deja huella en ellos."
 					btn={{
 						title: "Ver Video",
@@ -197,7 +197,7 @@ export default function PantallasInteractivas() {
 								frameBorder="0"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"
 								referrerPolicy="strict-origin-when-cross-origin"
-								allowfullscreen
+								allowFullScreen
 							></iframe>
 						</>
 					}

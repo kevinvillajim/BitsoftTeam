@@ -14,11 +14,11 @@ export default function Footer() {
 								img="https://raw.githubusercontent.com/kevinvillajim/Portfolio/main/src/assets/icons/whatsapp.png"
 							/>
 							<Social
-								link="https://www.instagram.com/villacreseskevin/"
+								link="https://www.instagram.com/bitsofteam"
 								img="https://raw.githubusercontent.com/kevinvillajim/Portfolio/main/src/assets/icons/instagram.png"
 							/>
 							<Social
-								link="https://www.facebook.com/kevin.villacreses.5."
+								link="https://www.facebook.com/bitsofteam?mibextid=ZbWKwL"
 								img="https://raw.githubusercontent.com/kevinvillajim/Portfolio/main/src/assets/icons/facebook.png"
 							/>
 							<Social
@@ -26,7 +26,7 @@ export default function Footer() {
 								img="https://raw.githubusercontent.com/kevinvillajim/Portfolio/main/src/assets/icons/GH.svg"
 							/>
 							<Social
-								link="mailto:kevinvillajim@hotmail.com"
+								link="mailto:contactenos@bitsofteam.com"
 								img="https://raw.githubusercontent.com/kevinvillajim/Portfolio/main/src/assets/icons/email.png"
 							/>
 						</div>

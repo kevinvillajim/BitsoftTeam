@@ -32,7 +32,7 @@ export default function HomeBannerCarrousel({carrousel}) {
 						src={currentItem.fondoVideo}
 						autoPlay
 						loop
-						className="absolute inset-0 w-full h-full object-cover videoBackground"
+						className="videoBackground"
 					></video>
 				) : (
 					<>
@@ -50,11 +50,11 @@ export default function HomeBannerCarrousel({carrousel}) {
 							</div>
 						</div>
 						<div className="relative px-[2.5rem] md:w-1/2 mt-8 md:mt-0 flex justify-center">
-							<div className="absolute inset-0 z-0 flex justify-center items-center w-[50rem] left-[-5rem] bgHomeCarr">
+							<div className="absolute inset-0 z-0 flex justify-center items-center left-[-5rem] sm:w-auto sm:left-0">
 								<img
 									src="/bg2.png"
 									alt="Background"
-									className="h-full object-cover img_transparent"
+									className="h-full object-cover img_transparent img-bg-carrousel"
 								/>
 							</div>
 							<img

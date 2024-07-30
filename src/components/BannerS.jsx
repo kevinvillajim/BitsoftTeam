@@ -18,11 +18,12 @@ export default function BannerS({
 			<div
 				className={`w-screen flex justify-center ${
 					otherContainer ? {otherContainer} : "items-center"
-				} ${fixed ? "bg-fixed" : ""} flex-col h-[${height}] bannerSContainer`}
+				} ${fixed ? "bg-fixed" : ""} flex-col sm:p-[0.2rem] sm:text-center`}
 				style={{
 					backgroundImage: `url(${img})`,
 					backgroundSize: "cover",
 					backgroundPosition: `${position}`,
+					height: height,
 				}}
 			>
 				<div className={otherText}>

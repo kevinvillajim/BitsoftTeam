@@ -35,7 +35,7 @@ export default function Header() {
 							<img className="w-[80px]" src="/logoSimp.png" />
 						</a>
 						<span
-							className="material-symbols-outlined text-white menu-icon flex items-center"
+							className="material-symbols-outlined text-white menu-icon flex items-center sm:hidden"
 							onClick={toggleMenu}
 						>
 							menu

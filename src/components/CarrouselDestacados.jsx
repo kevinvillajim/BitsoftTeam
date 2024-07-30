@@ -2,7 +2,7 @@ import Button from "./Button";
 export default function CarrouselDestacados({destacados, verTodos}) {
 	return (
 		<>
-			<div className="grid grid-cols-4 gap-4 overflow-x-auto px-[2rem] carrouselDestacadosContainer">
+			<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 overflow-x-auto px-8 carrouselDestacadosContainer">
 				{destacados.map((destacado, index) => (
 					<div className="p-4 rounded-lg border border-1 shadow-lg" key={index}>
 						<div className="w-full h-[250px] relative">
