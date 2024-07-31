@@ -105,7 +105,7 @@ function Home() {
 					{
 						img: "/luz.png",
 						description: "Experiencia",
-						title: "Inovación",
+						title: "Innovación",
 					},
 				]}
 			/>

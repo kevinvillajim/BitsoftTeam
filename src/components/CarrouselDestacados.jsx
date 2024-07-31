@@ -35,7 +35,7 @@ export default function CarrouselDestacados({destacados, verTodos}) {
 							/>
 						</div>
 						<h3 className="text-lg font-semibold mb-2">{destacado.title}</h3>
-						<p className="text-muted-foreground mb-4 h-[8.8rem]">
+						<p className="text-muted-foreground mb-4 h-[11rem]">
 							{destacado.description}
 						</p>
 						<Button

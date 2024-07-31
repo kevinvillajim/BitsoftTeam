@@ -8,7 +8,6 @@ import Tabs from "../components/Tabs";
 import CarrouselDestacados from "../components/CarrouselDestacados";
 import Footer from "../components/Footer";
 import BtnWhatsapp from "../components/BtnWhatsapp";
-import Formulario from "../components/Formulario";
 
 export default function PantallasInteractivas() {
 	const [showModal, setShowModal] = useState(false);
@@ -206,8 +205,8 @@ export default function PantallasInteractivas() {
 								<div className="my-[2rem]">
 									<p className="text-[] font-bold mr-[1rem]">Vidrio: </p>
 									<span>
-										Vidrio templado anti-reflejo y anti huellas con dureza de 9
-										Mohs, ancho de 4mm.
+										Vidrio templado anti-reflejo y anti huellas con dureza de
+										9H, ancho de 4mm.
 									</span>
 								</div>
 								<div className="my-[2rem]">
@@ -323,7 +322,7 @@ export default function PantallasInteractivas() {
 					textColor1="text-color1"
 					otherContainer="flex"
 					otherText="other-text"
-					content="Forma parte del 20% de instituciones que se diferencia por la tecnología e inovación, sé el presente de tus alumnos y deja huella en ellos."
+					content="Forma parte del 20% de instituciones que se diferencia por la tecnología e innovación, sé el presente de tus alumnos y deja huella en ellos."
 					btn={{
 						title: "Ver Video",
 						dark: true,
@@ -403,16 +402,16 @@ export default function PantallasInteractivas() {
 					},
 					{
 						img: "/t775.png",
-						title: 'Pantalla OneScreen TL7 98"',
+						title: 'Pantalla OneScreen T7 75"',
 						description:
-							"Tus aplicaciones y plataformas favoritas en una potente pantalla interactiva que te permite ejecutar múltiples aplicaciones, transmitir, presentar y compartir todo a la vez, sin ningún retraso.",
+							"Poder, potencia y vanguardia, la linea premium de Pantallas Interactivas OneScreen",
 						link: "https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20deseo%20cotizar%20las%20pantallas%20interactivas%20de%2095%22%20que%20vi%20en%20la%20pagina%20web.",
 					},
 					{
 						img: "/t786.png",
-						title: 'Pantalla OneScreen TL7 105"',
+						title: 'Pantalla OneScreen T7 86"',
 						description:
-							"Tus aplicaciones y plataformas favoritas en una potente pantalla interactiva que te permite ejecutar múltiples aplicaciones, transmitir, presentar y compartir todo a la vez, sin ningún retraso.",
+							"Poder, potencia y vanguardia, la linea premium de Pantallas Interactivas OneScreen",
 						link: "https://api.whatsapp.com/send?phone=+593998592223&text=Hola,%20deseo%20cotizar%20las%20pantallas%20interactivas%20de%20105%22%20que%20vi%20en%20la%20pagina%20web.",
 					},
 				]}

@@ -1,17 +1,11 @@
-import {useState} from "react";
 import Header from "../components/Header";
 import BannerS from "../components/BannerS";
-import Modal from "../components/Modal";
 import Title from "../components/Title";
-import Icons from "../components/Icons";
-import Tabs from "../components/Tabs";
 import CarrouselDestacados from "../components/CarrouselDestacados";
 import Footer from "../components/Footer";
 import BtnWhatsapp from "../components/BtnWhatsapp";
 
 export default function PantallasPublicitarias() {
-	const [showModal, setShowModal] = useState(false);
-
 	return (
 		<>
 			<Header />
