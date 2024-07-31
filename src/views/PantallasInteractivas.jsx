@@ -8,6 +8,7 @@ import Tabs from "../components/Tabs";
 import CarrouselDestacados from "../components/CarrouselDestacados";
 import Footer from "../components/Footer";
 import BtnWhatsapp from "../components/BtnWhatsapp";
+import ButtonDemo from "../components/ButtonDemo";
 
 export default function PantallasInteractivas() {
 	const [showModal, setShowModal] = useState(false);
@@ -317,7 +318,7 @@ export default function PantallasInteractivas() {
 					img="/tl7One.png"
 					position="center"
 					height="32rem"
-					title="El presente y futuro de la Educación"
+					title="EL PRESENTE, Y FURTURO DE LA EDUCACIÓN"
 					textColor="text-color"
 					textColor1="text-color1"
 					otherContainer="flex"
@@ -331,6 +332,9 @@ export default function PantallasInteractivas() {
 						},
 					}}
 				/>
+			</div>
+			<div className="p-[1rem]">
+				<ButtonDemo dark={true} />
 			</div>
 			{showModal ? (
 				<Modal
@@ -353,7 +357,7 @@ export default function PantallasInteractivas() {
 			) : (
 				""
 			)}
-			<div className="py-[2rem]">
+			<div className="pb-[2rem]">
 				<Title title="TAMAÑOS DISPONIBLES" />
 			</div>
 			<CarrouselDestacados

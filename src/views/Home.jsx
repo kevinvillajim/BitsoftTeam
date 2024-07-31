@@ -8,6 +8,7 @@ import CarrouselDestacados from "../components/CarrouselDestacados";
 import Footer from "../components/Footer";
 import BtnWhatsapp from "../components/BtnWhatsapp";
 import video2 from "/public/video2.mp4";
+import ButtonDemo from "../components/ButtonDemo.jsx";
 
 function Home() {
 	return (
@@ -42,7 +43,10 @@ function Home() {
 					},
 				]}
 			/>
-			<div className="my-[2rem]">
+			<div className="p-[1rem]">
+				<ButtonDemo dark={true} />
+			</div>
+			<div className="mb-[2rem]">
 				<div id="clientes">
 					<Title title="NUESTROS CLIENTES" />
 				</div>

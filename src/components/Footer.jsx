@@ -1,20 +1,7 @@
-import {useState} from "react";
 import Social from "./Social";
-import Modal from "./Modal";
-import Formulario from "./Formulario";
+import ButtonDemo from "./ButtonDemo.jsx";
 
 export default function Footer() {
-	const [showModal, setShowModal] = useState(false);
-	const [modalContent, setModalContent] = useState({title: "", message: ""});
-
-	const handleButtonClick = (title) => {
-		setModalContent({
-			title,
-			message: `Deseo ${title} por favor comunicarse conmigo`,
-		});
-		setShowModal(true);
-	};
-
 	return (
 		<>
 			<div className="bg-zinc-800 text-zinc-300 py-8 px-[5rem] mt-[3rem]">
@@ -149,13 +136,9 @@ export default function Footer() {
 							</li>
 						</ul>
 					</div>
-					<div
-						className="w-full lg:w-1/5 mb-6 lg:mb-0"
-						onClick={() => handleButtonClick("Solicitar una demostración")}
-					>
-						<h3 className="text-lg font-semibold mb-2 hover:underline">
-							Solicita una Demostración
-						</h3>
+
+					<div className="w-full lg:w-1/5 mb-6 lg:mb-0">
+						<ButtonDemo />
 					</div>
 				</div>
 				<div className="container mx-auto mt-8 border-t border-zinc-700 pt-4 text-center text-sm">
@@ -170,17 +153,6 @@ export default function Footer() {
 						</a>
 					</p>
 				</div>
-				{showModal && (
-					<Modal
-						setShowModal={setShowModal}
-						content={
-							<Formulario
-								title={modalContent.title}
-								message={modalContent.message}
-							/>
-						}
-					/>
-				)}
 			</div>
 		</>
 	);
