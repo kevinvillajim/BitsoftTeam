@@ -1,0 +1,12 @@
+# robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.bitsofteam.com/sitemap.xml
+
+# Principales páginas para crawling
+Allow: /
+Allow: /productos
+Allow: /productos/pantallas-interactivas
+Allow: /nosotros
